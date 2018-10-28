@@ -5,8 +5,8 @@
 #define DHTPIN D5  
 #define DHTTYPE DHT11  
 DHT dht(DHTPIN, DHTTYPE);  
-const char* ssid = "Balasundar-EXT";  
-const char* password = "9900002967";  
+const char* ssid = "<enter your wifi ssid>";  
+const char* password = "password";  
 WiFiClient client;  
 unsigned long myChannelNumber = 354734;  
 const char * myWriteAPIKey = "JBNXNMFKVWQJ1NNV";  
